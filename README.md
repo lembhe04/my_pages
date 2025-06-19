@@ -97,6 +97,9 @@ Logout and Theme Toggle
 
 
 ## 5.🗂️ Project Structure
+
+```plaintext
+.
 my-pages/
 ├── client/                  # React frontend
 │   ├── src/
@@ -113,6 +116,7 @@ my-pages/
 ├── .gitignore
 ├── README.md
 └── package.json
+```
 
 
 🧠 Learnings for Beginners
