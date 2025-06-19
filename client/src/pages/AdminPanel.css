@@ -1,0 +1,111 @@
+.admin-panel {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s;
+}
+
+.admin-panel.light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.admin-panel.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.admin-sidebar {
+  width: 30%;
+  background-color: #fff;
+  padding: 40px 20px;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.admin-panel.dark .admin-sidebar {
+  background-color: #2c2c2c;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* .logout-btn {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+} */
+
+.logout-btn {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #e53935; /* Red */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c62828;
+}
+
+.theme-toggle {
+  margin-top: 25px;
+}
+
+.admin-content {
+  flex-grow: 1;
+  padding: 40px;
+  background-color: #f0f9ff;
+}
+
+.admin-panel.dark .admin-content {
+  background-color: #121212;
+}
+
+.admin-buttons button {
+  margin-right: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.admin-name-input {
+  width: 90%;
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.save-name-btn, .edit-name-btn {
+  margin-top: 6px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-name-btn:hover, .edit-name-btn:hover {
+  background-color: #1976d2;
+}
+
+
