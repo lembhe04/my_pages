@@ -28,6 +28,7 @@ Follow these steps to set up the project locally.
 git clone https://github.com/lembhe04/my-pages.git
 cd my-pages
 
+```
 
 ## 2. ⚙️ Backend Setup
 bash
