@@ -29,7 +29,7 @@ git clone https://github.com/lembhe04/my-pages.git
 cd my-pages
 
 
-### 2. ⚙️ Backend Setup
+### **2. ⚙️ Backend Setup**
 bash
 Copy
 Edit
@@ -74,7 +74,7 @@ Visit: http://localhost:3000
 Backend runs at: http://localhost:5000
 
 
-### 🔄 App Flow
+### 4.🔄 App Flow
 👤 User Side
 Register/Login
 
@@ -95,7 +95,7 @@ Logout and Theme Toggle
 
 
 
-### S🗂️ Project Structure
+### 5.🗂️ Project Structure
 my-pages/
 ├── client/                  # React frontend
 │   ├── src/
