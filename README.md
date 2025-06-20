@@ -118,7 +118,7 @@ my-pages/
 └── package.json
 ```
 
-
+---
 🧠 Learnings for Beginners
 📚 How to manage Git commits step-by-step
 
